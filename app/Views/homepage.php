@@ -2,7 +2,14 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+
     <meta charset="utf-8">
+    <style>
+      .site-navbar.navbar-dark {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      }
+    </style>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
@@ -18,8 +25,34 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>Website Menu #9</title>
+    <style>
+    .mt-3, .my-3 {
+     margin-top: 0rem !important; 
+    }
+    body {
+      font-weight: 600 !important;
+    }
+    .btn{
+      font-weight: 600 !important;
+    }
+    </style>
   </head>
-  <body>
+  <body style="background-color:#fafbfd;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="mt-4">Welcome to the CodeIgniter 4 Framework</h1>
+          <p class="mb-4">CodeIgniter 4 is a  open source Web Application Framework. It is easy to use, provides a high performance framework and has a very small footprint, only about 2MB in size. CodeIgniter 4 is a reboot of the popular CodeIgniter framework, with a lot of improvements and new features.</p>
+          <form action="/search" method="get" class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search for something..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <img src="images/homepageimage.png" alt="CodeIgniter 4" class="img-fluid">
+        </div>
+      </div>
+    </div>
 
 
     <div class="site-mobile-menu site-navbar-target">
@@ -33,10 +66,13 @@
     
 
     <!-- NAVBAR -->
-    <header class="site-navbar mt-3">
+    <header class="site-navbar mt-3" style="position: fixed; top: 0; width: 100%; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);">
       <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="site-logo col-6"><a href="index.html">Brand</a></div>
+        <div class="row align-items-center" style="
+            height: 80px;
+            color: white;
+            background-color: white;">
+          <div class="site-logo col-6"><a href="~">Naukri Hunt</a></div>
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
@@ -62,7 +98,7 @@
                   <li><a href="gallery.html">Gallery</a></li>
                 </ul>
               </li>
-              <li><a href="blog.html">Blog</a></li>
+              <li><a href="blog.html">Compete</a></li>
               <li><a href="contact.html">Contact</a></li>
               <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
               <li class="d-lg-none"><a href="login.html">Log In</a></li>
@@ -82,10 +118,39 @@
     </header>
     
 
-    <div class="hero" style="background-image: url('images/hero_1.jpg');"></div>
+    <!-- <div class="hero" style="background-image: url('images/hero_1.jpg');"></div> -->
+    <div class="hero" ></div>
   
 
-
+    <footer class="site-footer" style="background-color: #333; color: #fff; padding: 2rem 0; text-align: center;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>About Us</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="#" style="color: #fff; text-decoration: none;">Home</a></li>
+              <li><a href="#" style="color: #fff; text-decoration: none;">About</a></li>
+              <li><a href="#" style="color: #fff; text-decoration: none;">Services</a></li>
+              <li><a href="#" style="color: #fff; text-decoration: none;">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <p>Email: info@example.com</p>
+            <p>Phone: +123456789</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>&copy; <?= date('Y') ?> Your Company. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
