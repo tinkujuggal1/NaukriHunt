@@ -14,15 +14,15 @@
     
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="<?= base_url('fonts/icomoon/style.css') ?>">
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?= base_url('css/owl.carousel.min.css') ?>">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>">
     
     <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
 
     <title>Website Menu #9</title>
     <style>
@@ -38,39 +38,7 @@
     </style>
   </head>
   <body style="background-color:#fafbfd;">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
-          <h1 class="mt-4">Welcome to the CodeIgniter 4 Framework</h1>
-          <p class="mb-4">CodeIgniter 4 is a  open source Web Application Framework. It is easy to use, provides a high performance framework and has a very small footprint, only about 2MB in size. CodeIgniter 4 is a reboot of the popular CodeIgniter framework, with a lot of improvements and new features.</p>
-          <form action="/search" method="get" class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search for something..." aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-          <div class="filters">
-            <h5>Filter by:</h5>
-            <div class="form-group">
-              <label for="category">Category</label>
-              <select class="form-control" id="category" name="category">
-                <option value="">All Categories</option>
-                <option value="technology">Technology</option>
-                <option value="finance">Finance</option>
-                <option value="healthcare">Healthcare</option>
-                <!-- Add more categories as needed -->
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="location">Location</label>
-              <input type="text" class="form-control" id="location" name="location" placeholder="Enter location">
-            </div>
-            <button class="btn btn-primary" type="submit">Apply Filters</button>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <img src="images/homepageimage.png" alt="CodeIgniter 4" class="img-fluid">
-        </div>
-      </div>
-    </div>
+    
 
 
     <div class="site-mobile-menu site-navbar-target">
@@ -137,8 +105,27 @@
     
 
     <!-- <div class="hero" style="background-image: url('images/hero_1.jpg');"></div> -->
-    <div class="hero" ></div>
-  
+<div style="display: flex; justify-content: space-between; margin: 100px 20px 20px 20px;">
+  <div style="background-color: white; margin: 10px; padding: 20px; flex: 1;">
+    <div style="background-color: white; border-radius: 10px; padding: 20px;">
+    <div style="margin: 10px;">
+    <div style="display: flex;">
+      <div style="flex: 1; text-align: left; display: flex; align-items: center; justify-content: flex-start;">
+        <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
+        <h3>Job Title</h3>
+      </div>
+      <div style="flex: 1; text-align: right; display: flex; align-items: center; justify-content: flex-end;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- Content for the left div -->
+  </div>
+  <div style="background-color: white; margin: 10px; padding: 20px; flex: 1;">
+    <!-- Content for the right div -->
+  </div>
+</div>
 
     <footer class="site-footer" style="background-color: #333; color: #fff; padding: 2rem 0; text-align: center;">
       <div class="container">
