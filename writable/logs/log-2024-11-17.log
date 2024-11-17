@@ -1,0 +1,150 @@
+ERROR - 2024-11-17 17:41:42 --> mysqli_sql_exception: Unknown column 'NewPassword' in 'field list' in C:\xampp\htdocs\NaukriHunt\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\NaukriHunt\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\NaukriHunt\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\NaukriHunt\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\NaukriHunt\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\NaukriHunt\app\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\NaukriHunt\system\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+#6 C:\xampp\htdocs\NaukriHunt\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\NaukriHunt\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\NaukriHunt\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\NaukriHunt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\NaukriHunt\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-17 17:41:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'NewPassword' in 'field list'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (:FirstName:, :LastName:, :EmailId:, :PhoneNumber:, :NewPassword:, :RoleId:, :PhotoLocation:, :CreatedDateTime:, :IsActive:)', [...], false)
+ 2 APPPATH\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-17 17:41:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'NewPassword' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:41:42\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:41:42\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (:FirstName:, :LastName:, :EmailId:, :PhoneNumber:, :NewPassword:, :RoleId:, :PhotoLocation:, :CreatedDateTime:, :IsActive:)', [...], false)
+ 4 APPPATH\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-17 17:41:42 --> [Caused by] mysqli_sql_exception: Unknown column 'NewPassword' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:41:42\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:41:42\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:41:42\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (:FirstName:, :LastName:, :EmailId:, :PhoneNumber:, :NewPassword:, :RoleId:, :PhotoLocation:, :CreatedDateTime:, :IsActive:)', [...], false)
+ 5 APPPATH\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-17 17:44:11 --> mysqli_sql_exception: Unknown column 'NewPassword' in 'field list' in C:\xampp\htdocs\NaukriHunt\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\NaukriHunt\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\NaukriHunt\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\NaukriHunt\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\NaukriHunt\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\NaukriHunt\app\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\NaukriHunt\system\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+#6 C:\xampp\htdocs\NaukriHunt\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\NaukriHunt\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\NaukriHunt\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\NaukriHunt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\NaukriHunt\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-17 17:44:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'NewPassword' in 'field list'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (:FirstName:, :LastName:, :EmailId:, :PhoneNumber:, :NewPassword:, :RoleId:, :PhotoLocation:, :CreatedDateTime:, :IsActive:)', [...], false)
+ 2 APPPATH\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-17 17:44:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'NewPassword' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:44:11\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:44:11\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (:FirstName:, :LastName:, :EmailId:, :PhoneNumber:, :NewPassword:, :RoleId:, :PhotoLocation:, :CreatedDateTime:, :IsActive:)', [...], false)
+ 4 APPPATH\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-17 17:44:11 --> [Caused by] mysqli_sql_exception: Unknown column 'NewPassword' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:44:11\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:44:11\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:44:11\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `NewPassword`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (:FirstName:, :LastName:, :EmailId:, :PhoneNumber:, :NewPassword:, :RoleId:, :PhotoLocation:, :CreatedDateTime:, :IsActive:)', [...], false)
+ 5 APPPATH\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-17 17:44:42 --> mysqli_sql_exception: Column 'Password' cannot be null in C:\xampp\htdocs\NaukriHunt\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\NaukriHunt\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\NaukriHunt\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\NaukriHunt\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\NaukriHunt\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\NaukriHunt\app\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\NaukriHunt\system\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+#6 C:\xampp\htdocs\NaukriHunt\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\NaukriHunt\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\NaukriHunt\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\NaukriHunt\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\NaukriHunt\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-17 17:44:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'Password' cannot be null
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `Password`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (:FirstName:, :LastName:, :EmailId:, :PhoneNumber:, :Password:, :RoleId:, :PhotoLocation:, :CreatedDateTime:, :IsActive:)', [...], false)
+ 2 APPPATH\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-17 17:44:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'Password' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `Password`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:44:42\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `Password`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:44:42\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `Password`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (:FirstName:, :LastName:, :EmailId:, :PhoneNumber:, :Password:, :RoleId:, :PhotoLocation:, :CreatedDateTime:, :IsActive:)', [...], false)
+ 4 APPPATH\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-17 17:44:42 --> [Caused by] mysqli_sql_exception: Column 'Password' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `Password`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:44:42\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `Password`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:44:42\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `Password`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (\'Tinku\', \'Juggal\', \'Facebook@1234\', \'Facebook@1234\', NULL, 1, \'\', \'2024-11-17 17:44:42\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usermaster` (`FirstName`, `LastName`, `EmailId`, `PhoneNumber`, `Password`, `RoleId`, `PhotoLocation`, `CreatedDateTime`, `IsActive`) VALUES (:FirstName:, :LastName:, :EmailId:, :PhoneNumber:, :Password:, :RoleId:, :PhotoLocation:, :CreatedDateTime:, :IsActive:)', [...], false)
+ 5 APPPATH\Controllers\Home.php(55): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->RegisterSubmit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

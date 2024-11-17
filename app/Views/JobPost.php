@@ -35,6 +35,22 @@
     .btn{
       font-weight: 600 !important;
     }
+    .Applybtn{
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        background-color: blue;
+        font-weight: 600;
+        
+    }
+    .sharebtn{
+        position: sticky; Top:50%;
+    }
+    .icon-share:onhover{
+        color: blue;
+    }
     </style>
   </head>
   <body style="background-color:#fafbfd;">
@@ -106,20 +122,40 @@
 
     <!-- <div class="hero" style="background-image: url('images/hero_1.jpg');"></div> -->
 <div style="display: flex; justify-content: space-between; margin: 100px 20px 20px 20px;">
-  <div style="background-color: white; margin: 10px; padding: 20px; flex: 1;">
+  <div style="background-color: white; margin: 10px; padding: 20px; flex: 2;">
     <div style="background-color: white; border-radius: 10px; padding: 20px;">
     <div style="margin: 10px;">
-    <div style="display: flex;">
-      <div style="flex: 1; text-align: left; display: flex; align-items: center; justify-content: flex-start;">
-        <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
-        <h3>Job Title</h3>
-      </div>
-      <div style="flex: 1; text-align: right; display: flex; align-items: center; justify-content: flex-end;">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
+        <div style="display: flex;">
+            <div style="flex: 1; text-align: left; display: flex; align-items: center; justify-content: flex-start;">
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
+                <h4>Job Title</h4>
+            </div>
+            <div style="flex: 1; text-align: right; display: flex; align-items: center; justify-content: flex-end;">
+                <button class="Applybtn">Apply Now</button><p class="sharebtn" ><span class="icon-share" style="font-size: 20px;margin-top: 80px; margin-left: 10px;"></span></p>
+            </div>
+        </div>
+        <div style="text-align: left; margin-top: 10px; font-weight: bold; font-size: 20px;">
+        <h2>Data Analyst</h2>
+        </div>
+        <div>
+            <p>Gurugram,India . 4 days ago . Over 100 Applications</p>
+        </div>
+
+        <div style="text-align: left; margin-top: 10px; font-weight: bold; font-size: 20px;">
+          <h3>Job Description</h3>
+        </div>
+        <div>
+            <ul style="list-style: disc; margin-left: 20px; margin-top: 10px;">
+                <li>Responsible for data analysis, data mining and data visualization.</li>
+                <li>Develop, test and maintain statistical models.</li>
+                <li>Collaborate with cross-functional teams to integrate data insights into business strategies.</li>
+            </ul>
+        </div>
+        
+    
     </div>
     </div>
-    </div>
+    
     <!-- Content for the left div -->
   </div>
   <div style="background-color: white; margin: 10px; padding: 20px; flex: 1;">
