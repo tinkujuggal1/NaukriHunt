@@ -6,7 +6,16 @@ class Post extends BaseController
 {
     public function ShowPost($Param): string
     {
-        return view('JobPost');
+        $db = \Config\Database::connect();
+        $builder = $db->table('jobposts');
+        $builder->where('JobPostCode', $Param);
+        $query = $builder->get();
+        $row = $query->getRow();
+        $companyQuery = $db->table('companydetails')->where('Id', $row->CompanyId)->get();
+        $companyRow = $companyQuery->getRow();
+        $row->CompanyName = $companyRow->CompanyName;
+        return view('JobPost', ['row' => $row]);
+        //return view('JobPost');
     }
 
 }

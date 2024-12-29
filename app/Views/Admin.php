@@ -7,18 +7,27 @@
     <link rel="stylesheet" href="<?= base_url('css/admin.css') ?>">
 </head>
 <body>
-    <header>
-        <nav>
+    <div class="container">
+        <div class="sidebar">
             <ul>
-                <li><a href="<?= site_url('admin/dashboard') ?>">Dashboard</a></li>
-                <li><a href="<?= site_url('admin/users') ?>">Users</a></li>
-                <li><a href="<?= site_url('admin/posts') ?>">Posts</a></li>
-                <li><a href="<?= site_url('admin/logout') ?>">Logout</a></li>
+                <li ><a class="active-list" href="#">Dashboard</a></li> 
+                <li><a class="active-list" href=<?=base_url('/admin/jobpostcreate')?>>Job Post</a></li>
+                <li><a class="active-list" href="#">Users</a></li>
+                <li><a class="active-list" href="#">Settings</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <?= $this->renderSection('content') ?>
-    </main>
+        </div>
+        <div class="content">
+            <div class="content-wrapper">
+                <div class="title">
+                <h1>Admin Dashboard</h1>
+                </div> 
+
+
+
+                
+            </div>
+            
+        </div>
+    </div>
 </body>
 </html>
