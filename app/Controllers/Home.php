@@ -19,6 +19,19 @@ class Home extends BaseController
     {
         return view('Register');
     }
+    public function Download()
+    {
+        $filename='Joogle 1.1.zip';
+        $filepath = WRITEPATH . 'uploads\\' . $filename;
+
+        if (file_exists($filepath)) {
+            return $this->response->download($filepath, null)->setFileName($filename);
+        } else {
+            return $filepath;
+            //return redirect()->back()->with('error', 'File not found.');
+        }
+    }
+    
 public function RegisterSubmit()
 {
     // Process form submission

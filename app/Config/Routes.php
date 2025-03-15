@@ -10,6 +10,8 @@ $routes->get('login', 'Home::login');
 $routes->get('register', 'Home::Register');
 $routes->post('register', 'Home::RegisterSubmit');
 $routes->get('job-post/(:any)', 'Post::ShowPost/$1');
+$routes->get('download', 'Home::Download');
+
 
 
 

@@ -127,7 +127,7 @@
     <div style="margin: 10px;">
         <div style="display: flex;">
             <div style="flex: 1; text-align: left; display: flex; align-items: center; justify-content: flex-start;">
-                <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
+                <img src="<?= base_url($row->CompanyLogo) ?>" alt="Image" class="img-fluid mr-3" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
                 <h4><?= $row->JobTitle ?></h4>
             </div>
             <div style="flex: 1; text-align: right; display: flex; align-items: center; justify-content: flex-end;">
@@ -156,8 +156,9 @@
                 <li>Collaborate with cross-functional teams to integrate data insights into business strategies.</li>
 
                 <li>Collaborate with cross-functional teams to integrate data insights into business strategies.</li> -->
-                <?= $row->JobDescription ?>
+                
             </ul>
+            <?= $row->JobDescription ?>
         </div>
         
     
@@ -170,8 +171,9 @@
     <!-- Content for the right div -->
   </div>
 </div>
+<?php include('footer.php'); ?>
 
-    <footer class="site-footer" style="background-color: #333; color: #fff; padding: 2rem 0; text-align: center;">
+    <!-- <footer class="site-footer" style="background-color: #333; color: #fff; padding: 2rem 0; text-align: center;">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -199,7 +201,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

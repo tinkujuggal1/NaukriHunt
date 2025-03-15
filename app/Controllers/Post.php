@@ -14,6 +14,8 @@ class Post extends BaseController
         $companyQuery = $db->table('companydetails')->where('Id', $row->CompanyId)->get();
         $companyRow = $companyQuery->getRow();
         $row->CompanyName = $companyRow->CompanyName;
+        $row->CompanyLogo = $companyRow->CompanyLogoLocation;
+
         return view('JobPost', ['row' => $row]);
         //return view('JobPost');
     }
