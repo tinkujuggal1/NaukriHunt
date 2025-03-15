@@ -1,0 +1,670 @@
+CRITICAL - 2025-01-12 10:25:58 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:25:58 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:25:58 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:25:58 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:25:58 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:32:33 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/~]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('~')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:39:16 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:39:16 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:39:16 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:39:16 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:39:16 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:40:35 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/~]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('~')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:41:32 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:41:32 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:41:32 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:41:32 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:41:32 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:43:45 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:43:45 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:43:45 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:43:45 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:43:45 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:43:53 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:43:53 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:43:53 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:43:53 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:43:53 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:46:33 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:46:33 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:46:33 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:46:33 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:46:33 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:47:47 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:47:47 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:47:47 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:47:47 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:47:47 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:48:34 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:48:34 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:48:34 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:48:34 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:48:34 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:49:06 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:49:06 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:49:06 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:49:06 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:49:06 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:57:44 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:57:44 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:57:44 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:57:44 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:57:44 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:57:49 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:57:49 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:57:49 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:57:49 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:57:49 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:59:39 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:59:39 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:59:39 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:59:39 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 10:59:39 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 11:03:24 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/main.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 11:03:24 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery-3.3.1.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery-3.3.1.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 11:03:24 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/bootstrap.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'bootstrap.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 11:03:24 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/popper.min.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'popper.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-12 11:03:24 --> ErrorException: Attempt to read property "CompanyId" on null
+[Method: GET, Route: job-post/js/jquery.sticky.js]
+in APPPATH\Controllers\Post.php on line 14.
+ 1 APPPATH\Controllers\Post.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "CompanyId" on null', 'C:\\xampp\\htdocs\\NaukriHunt\\app\\Controllers\\Post.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post->ShowPost('js', 'jquery.sticky.js')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

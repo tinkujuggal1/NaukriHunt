@@ -7,4 +7,18 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('login', 'Home::login');
-$routes->get('post/(:any)', 'Post::ShowPost/$1');
+$routes->get('register', 'Home::Register');
+$routes->post('register', 'Home::RegisterSubmit');
+$routes->get('job-post/(:any)', 'Post::ShowPost/$1');
+$routes->get('download', 'Home::Download');
+
+
+
+
+
+//admin
+
+$routes->get('admin', 'Admin::Admin');
+$routes->get('admin/jobpostcreate', 'Admin::AdminJobPostCreate');
+$routes->post('admin/jobpostsubmit', 'Admin::AdminJobPostCreateSubmit');
+
